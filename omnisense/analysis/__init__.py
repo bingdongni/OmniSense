@@ -1,0 +1,1 @@
+"""analysis module for OmniSense"""

@@ -1,0 +1,1 @@
+"""spider module for OmniSense"""

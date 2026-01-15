@@ -1,0 +1,1822 @@
+{
+  "priority_platforms": [
+    {
+      "filename": "amazon.py",
+      "exists": true,
+      "lines": 2314,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "user_agent",
+        "headers",
+        "proxy",
+        "delay",
+        "retry",
+        "captcha",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "Amazon"
+    },
+    {
+      "filename": "bilibili.py",
+      "exists": true,
+      "lines": 2068,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "user_agent",
+        "headers",
+        "proxy",
+        "delay",
+        "captcha",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "B站 (Bilibili)"
+    },
+    {
+      "filename": "douyin.py",
+      "exists": true,
+      "lines": 1430,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "captcha",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "抖音 (Douyin)"
+    },
+    {
+      "filename": "facebook.py",
+      "exists": true,
+      "lines": 1952,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "captcha",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "match",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "Facebook"
+    },
+    {
+      "filename": "github.py",
+      "exists": true,
+      "lines": 1838,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "user_agent",
+        "proxy",
+        "delay",
+        "retry",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "GitHub"
+    },
+    {
+      "filename": "google_scholar.py",
+      "exists": true,
+      "lines": 2091,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "user_agent",
+        "proxy",
+        "delay",
+        "retry",
+        "captcha",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "Google Scholar"
+    },
+    {
+      "filename": "instagram.py",
+      "exists": true,
+      "lines": 1846,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "user_agent",
+        "headers",
+        "proxy",
+        "delay",
+        "captcha",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "match",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "Instagram"
+    },
+    {
+      "filename": "kuaishou.py",
+      "exists": true,
+      "lines": 1000,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "captcha",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "快手 (Kuaishou)"
+    },
+    {
+      "filename": "taobao.py",
+      "exists": true,
+      "lines": 2099,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "user_agent",
+        "headers",
+        "proxy",
+        "delay",
+        "retry",
+        "captcha",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "淘宝 (Taobao)"
+    },
+    {
+      "filename": "tiktok.py",
+      "exists": true,
+      "lines": 885,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "captcha",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "TikTok"
+    },
+    {
+      "filename": "tmall.py",
+      "exists": true,
+      "lines": 1848,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "user_agent",
+        "headers",
+        "proxy",
+        "delay",
+        "retry",
+        "captcha",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "天猫 (Tmall)"
+    },
+    {
+      "filename": "twitter.py",
+      "exists": true,
+      "lines": 989,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "Twitter"
+    },
+    {
+      "filename": "weibo.py",
+      "exists": true,
+      "lines": 1501,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "user_agent",
+        "proxy",
+        "delay",
+        "captcha",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "微博 (Weibo)"
+    },
+    {
+      "filename": "xianyu.py",
+      "exists": true,
+      "lines": 2012,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "user_agent",
+        "headers",
+        "proxy",
+        "delay",
+        "retry",
+        "captcha",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "闲鱼 (Xianyu)"
+    },
+    {
+      "filename": "xiaohongshu.py",
+      "exists": true,
+      "lines": 1532,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "headers",
+        "proxy",
+        "delay",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "小红书 (Xiaohongshu)"
+    },
+    {
+      "filename": "youtube.py",
+      "exists": true,
+      "lines": 2211,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "headers",
+        "proxy",
+        "delay",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "YouTube"
+    },
+    {
+      "filename": "zhihu.py",
+      "exists": true,
+      "lines": 1868,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "user_agent",
+        "headers",
+        "proxy",
+        "delay",
+        "retry",
+        "captcha",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": true,
+      "has_4_layers": true,
+      "layers": {
+        "Layer 1 - Spider": true,
+        "Layer 2 - AntiCrawl": true,
+        "Layer 3 - Matcher": true,
+        "Layer 4 - Interaction": true
+      },
+      "errors": [],
+      "cn_name": "知乎 (Zhihu)"
+    }
+  ],
+  "standard_platforms": [
+    {
+      "filename": "aihuishou.py",
+      "exists": true,
+      "lines": 59,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "arxiv.py",
+      "exists": true,
+      "lines": 313,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "baidu.py",
+      "exists": true,
+      "lines": 288,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "cnki.py",
+      "exists": true,
+      "lines": 358,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "csdn.py",
+      "exists": true,
+      "lines": 60,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "dewu.py",
+      "exists": true,
+      "lines": 59,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "dianping.py",
+      "exists": true,
+      "lines": 77,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "douban.py",
+      "exists": true,
+      "lines": 400,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "google.py",
+      "exists": true,
+      "lines": 281,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "hupu.py",
+      "exists": true,
+      "lines": 369,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "jd.py",
+      "exists": true,
+      "lines": 75,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "jianshu.py",
+      "exists": true,
+      "lines": 61,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "linkedin.py",
+      "exists": true,
+      "lines": 342,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "maimai.py",
+      "exists": true,
+      "lines": 384,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "medium.py",
+      "exists": true,
+      "lines": 72,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "meituan.py",
+      "exists": true,
+      "lines": 90,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "score",
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "ozon.py",
+      "exists": true,
+      "lines": 59,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "pinduoduo.py",
+      "exists": true,
+      "lines": 59,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "qichezhi.py",
+      "exists": true,
+      "lines": 58,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "quark.py",
+      "exists": true,
+      "lines": 187,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "quora.py",
+      "exists": true,
+      "lines": 60,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "reddit.py",
+      "exists": true,
+      "lines": 311,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "shopee.py",
+      "exists": true,
+      "lines": 61,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "sohu.py",
+      "exists": true,
+      "lines": 76,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "stackoverflow.py",
+      "exists": true,
+      "lines": 76,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "score",
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "temu.py",
+      "exists": true,
+      "lines": 59,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "tieba.py",
+      "exists": true,
+      "lines": 413,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "toutiao.py",
+      "exists": true,
+      "lines": 264,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "vipshop.py",
+      "exists": true,
+      "lines": 61,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "webofscience.py",
+      "exists": true,
+      "lines": 385,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "wechat_mp.py",
+      "exists": true,
+      "lines": 283,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "wechat_video.py",
+      "exists": true,
+      "lines": 106,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "xueqiu.py",
+      "exists": true,
+      "lines": 74,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "zhihu_temp.py",
+      "exists": true,
+      "lines": 1808,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "user_agent",
+        "headers",
+        "proxy",
+        "delay",
+        "retry",
+        "captcha",
+        "cookie",
+        "session"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "filter",
+        "sort",
+        "match",
+        "score",
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    },
+    {
+      "filename": "zhuanzhuan.py",
+      "exists": true,
+      "lines": 60,
+      "syntax_valid": true,
+      "has_spider_class": true,
+      "methods_complete": true,
+      "found_methods": [
+        "login",
+        "search",
+        "get_user_profile",
+        "get_user_posts",
+        "get_post_detail",
+        "get_comments"
+      ],
+      "has_anti_crawl": true,
+      "anti_crawl_features": [
+        "proxy",
+        "delay",
+        "cookie"
+      ],
+      "has_matcher": true,
+      "matcher_features": [
+        "keyword"
+      ],
+      "is_priority": false,
+      "has_4_layers": false,
+      "layers": {},
+      "errors": []
+    }
+  ],
+  "statistics": {
+    "total_platforms": 52,
+    "priority_count": 17,
+    "standard_count": 35,
+    "priority_passed": 17,
+    "priority_syntax_ok": 17,
+    "priority_methods_ok": 17,
+    "priority_anti_crawl_ok": 17,
+    "priority_matcher_ok": 17,
+    "priority_4_layers_ok": 17,
+    "priority_total_lines": 29484,
+    "standard_passed": 35,
+    "standard_syntax_ok": 35,
+    "standard_methods_ok": 35,
+    "standard_anti_crawl_ok": 35,
+    "standard_matcher_ok": 35,
+    "standard_total_lines": 7748,
+    "total_lines": 37232,
+    "total_passed": 52
+  },
+  "passed": true
+}
